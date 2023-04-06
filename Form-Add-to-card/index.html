@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row-box">
+            <h2>Tên sản phẩm</h2>
+            <h2>Giá tiền</h2>
+            <h2 >Số lượng</h2>
+            <h2>Thành tiền</h2>
+
+        </div>
+        <div class="row-box">
+            <h3>Sản phẩm A</h3>
+            <input class="price" type="number" value="400">
+            <input class="quantity" type="number"  min="0" step="1" onchange="sum()">
+            <h3 class="reusult"> </h3>
+
+        </div>
+        <div class="row-box">
+            <h3>Sản phẩm B</h3>
+            <input class="price2" type="number" value="500">
+            <input class="quantity2" type="number"  min="0" step="1" onchange="sum2()">
+            <h3 class="reusult2"> </h3>
+
+        </div>
+        <div class="row-box">
+            <h3>Sản phẩm C</h3>
+            <input class="price3" type="number" value="570">
+            <input class="quantity3" type="number"  min="0" step="1" onchange="sum3()">
+            <h3 class="reusult3"> </h3>
+
+        </div>
+        <button onclick="clickMe()">Thanh toán</button>
+    </div>
+    <script src="./index.js">
+
+    </script>
+</body>
+</html>
